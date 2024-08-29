@@ -3,6 +3,19 @@
   position: sticky;
   top: 0;
 }
+.h-wrapper .logofelix {
+  border-radius: 50%;
+  width: 10rem; 
+  height: 100px;
+  background-color: #333; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px; 
+  color: #fff; 
+  font-weight: bold; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 .h-container {
   padding-top: 1rem;
   padding-bottom: 1rem;

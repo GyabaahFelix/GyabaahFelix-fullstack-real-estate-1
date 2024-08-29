@@ -9,6 +9,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModal from "../AddPropertyModal/AddPropertyModal";
 import useAuthCheck from "../../hooks/useAuthCheck.jsx";
+import logofelix from './../../../public/logofelix.jpg'
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -28,7 +29,7 @@ const Header = () => {
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <Link to="/">
-          <img src="./logo.png" alt="logo" width={100} />
+          <img src="./logofelix.jpg" alt="logo" width={100} className="logofelix" />
         </Link>
 
         {/* menu */}

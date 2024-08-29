@@ -9,7 +9,7 @@ const Hero = () => {
         {/* left side */}
         <div className="flexColStart hero-left">
           <div className="hero-title">
-            <div className="orange-circle" />
+            <div className="purple-circle" />
             <motion.h1
             initial={{ y: "2rem", opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -18,14 +18,14 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              Discover <br />
+              Uncover <br />
               Most Suitable
-              <br /> Property
+              <br /> Possessions
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Discover a range of assets that match your needs effortlessly.</span>
+            <span>Eliminate all challenges in securing a home for yourself and<br/>  enjoy a seamless experience in finding the perfect residence.</span>
           </div>
 
           <SearchBar/>
@@ -33,23 +33,23 @@ const Hero = () => {
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8800} end={9000} duration={4} /> <span>+</span>
+                <CountUp start={1200} end={15000} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Premium Product</span>
+              <span className="secondaryText">Luxury Products</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4} /> <span>+</span>
+                <CountUp start={1070} end={7000} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Happy Customer</span>
+              <span className="secondaryText">Satisfied Clients</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp end={28} /> <span>+</span>
+                <CountUp end={500} /> <span>+</span>
               </span>
-              <span className="secondaryText">Awards Winning</span>
+              <span className="secondaryText">Prize-Winnings</span>
             </div>
           </div>
         </div>
